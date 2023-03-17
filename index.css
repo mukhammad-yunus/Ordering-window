@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Smythe', cursive;
 }
 
 header img {
@@ -27,13 +28,13 @@ header img {
 /* Buttons */
 .order-btn {
     display: block;
-    font-size: 35px;
+    font-size: 24px;
     font-weight: bold;
     color: white;
     border: none;
     border-radius: 20px;
     background: #17db99;
-    padding: 5px 25px;
+    padding: 15px 25px;
     border-radius: 8px;
     width: 100%;
 }
