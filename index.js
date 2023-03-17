@@ -12,7 +12,7 @@ document.addEventListener("submit", function(e){
     formWindow.innerHTML = `
     <div class="modal-inner-loading">
         <img src="img/loading.svg" class="loading">
-        <p>Registering your order, please hold on a second ...</p>
+        <p>Dear <b>${name}</b>! Registering your order, please hold on a second ...</p>
     </div>`
 
     setTimeout(() => {
@@ -20,7 +20,7 @@ document.addEventListener("submit", function(e){
         <button class="close-form-btn" id="close-form-btn">x</button>
     <div class="modal-inner-loading">
         <img src="img/done.svg" class="done">
-        <p>Thank you for your order, <b>${name}</b>. It will be delivered within a half an hour!</p>
+        <p>Thank you for your order. It will be delivered within a half an hour!<br> <b>${name}</b>, we love you, we're happy to serve you!</p>
     </div>`
     }, 1500);
 })
