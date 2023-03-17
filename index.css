@@ -6,6 +6,11 @@ header img {
     width: 100%;
 }
 
+/* Typography */
+.color-grey{
+    color: grey;
+    font-weight: 100;
+}
 .color-grey,
 .color-dark
 {
