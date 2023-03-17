@@ -68,7 +68,7 @@ function handlePaymentDisplayClick(){
     <button class="close-form-btn" id="close-form-btn">x</button>
     <input type="text" name="name" id="name" placeholder="Enter your name" required>
     <input type="text" name="card-number" id="card-number" placeholder="Enter your card number" required>
-    <input type="password" name="cvv" id="cvv" placeholder="Enter your CVV" required>
+    <input type="text" name="cvv" id="cvv" placeholder="Enter your CVV" required>
 
     <button class="order-btn" id="pay-btn">Pay</button>`
 }
