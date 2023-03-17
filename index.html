@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Restaurant Ordering app</title>
+       <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <img src="img/header.jpg">
+        </header>
+        <section>
+            <div class="menu-container" id="menu-container">
+                <div class="menu-window" id="menu-window">
+                    <!-- render MENU HERE -->
+                </div>
+                <div class="order-window display-none" id="order-window">
+                    <div class="order-window">
+                        <h2>Your order</h2>
+                        <div class="bottom-line" id="order-items">
+                            <!-- render ORDER HERE -->
+                        </div>
+                        <div class="display-flex" id="total-price">
+                        <!-- render TOTAL PRICE -->
+                        </div>
+                    </div>
+                    <button class="order-btn" id="order-btn">Complete order</button>
+                </div>
+            </div>
+        </section>
+        <form class="form-window" id="form-window">
+            <h3 class="color-dark">Enter card details</h3>
+            <button class="close-form-btn" id="close-form-btn">x</button>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            <input type="text" name="card-number" id="card-number" placeholder="Enter your card number" required>
+            <input type="password" name="cvv" id="cvv" placeholder="Enter your CVV" required>
+
+            <button class="order-btn" id="pay-btn">Pay</button>
+        </form>
+	<script src="index.js" type="module"></script>
+    </body>
+</html> 
