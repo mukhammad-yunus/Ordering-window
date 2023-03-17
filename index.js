@@ -22,7 +22,7 @@ document.addEventListener("submit", function(e){
         <img src="img/done.svg" class="done">
         <p>Thank you for your order. It will be delivered within a half an hour!<br> <b>${name}</b>, we love you, we're happy to serve you!</p>
     </div>`
-    }, 1500);
+    }, 2500);
 })
 
 document.addEventListener('click', function(e){
